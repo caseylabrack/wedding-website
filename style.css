@@ -1,20 +1,10 @@
-body { font-family: 'Source Sans Pro', sans-serif; max-width: 800px; margin: auto; }
-h1 { font-family: 'Fredoka One', cursive; font-size: 2em; text-align: center; }
-p { text-align: center;}
+body { font-family: 'Roboto Slab', serif; margin-left: auto; margin-right: auto; max-width: 800px; text-align: center;}
+/*h1 { font-family: 'Fredoka One', cursive;  }*/
+h1 { font-family: 'Fugaz One', cursive; font-size: 2em; text-align: center; }
+h2 { font-weight: 700; } 
 
-aside { float: left; }
-aside.right { padding-left: 2em; }
-section::after { content:''; display: block; clear: both; }
+a.button { font-size: 1.2em; text-decoration: none; color: black; background-color: white; border-radius: 5px; border: 1px solid; }
+a.button { display: block; padding: 20px; width: 30%; text-align: center; margin-left: auto; margin-right: auto;}
+a.button:hover { background-color: #ccc; transition: .2s background-color; }
 
-section { margin-top: 100px; }
-section {width: 100%; text-align: center; margin-left: auto; margin-right: auto;}
-
-/* #welcome {width: 100%; text-align: center; margin-left: auto; margin-right: auto;} */
-a.button { font-size: 1.2em; text-decoration: none; padding: 20px; color: #fff; background-color: #5a2b11; border-radius: 5px; margin-top: 100px; }
-a.button { }
-
-@media screen and (max-width: 600px) {
-
-  aside { float: none; }
-  aside#right { padding-left: 0px; }
-}
+section { margin-bottom: 8em; }
